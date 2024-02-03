@@ -1,0 +1,7 @@
+Implementieren sie zur Memory und CPU-Komponente der von Neumann Architektur einen Programm-Testbench.
+In der Simulation soll folgender Ablauf zu sehen sein:
+1. der Inhalt von Speicherplatz1 des Memory soll in das CPU-Register eingelesen werden
+2. danach soll der CPU-Registerinhalt in den Speicherplatz 2 des Memory übertragen werden
+
+Dazu sind beide Komponenten in einer Top-Entity  zusammenzubauen und intern mit dem Datenbus, Adressbus und Steuerbus untereinander zu verbinden.
+Der Adressbus und der Steuerbus sind im Testbench über die CPU so mit Signalen zu belegen, dass die in 1. und 2. beschriebenen Abläufe im Simulator zu sehen sind.
